@@ -5,16 +5,16 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="modulepreload" href="./_app/immutable/entry/start.DoYJtw_f.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.d_4-4END.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.DcMlfnik.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.9raB51iI.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.BrmorfX0.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.BQ24v_F8.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.B9oE8H0A.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.iUn9ZIwf.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.DS8-8V6j.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/2.59j6zePk.js">
+		<link rel="modulepreload" href="./app/immutable/entry/start.DoYJtw_f.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/entry.d_4-4END.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/scheduler.DcMlfnik.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/index.9raB51iI.js">
+		<link rel="modulepreload" href="./app/immutable/entry/app.BrmorfX0.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/preload-helper.BQ24v_F8.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/index.B9oE8H0A.js">
+		<link rel="modulepreload" href="./app/immutable/nodes/0.iUn9ZIwf.js">
+		<link rel="modulepreload" href="./app/immutable/nodes/2.DS8-8V6j.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/2.59j6zePk.js">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
 		<link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.4/dist/terminal.min.css" />
 		<link rel="stylesheet" href="https://newcss.net/theme/terminal.css">
@@ -37,8 +37,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.DoYJtw_f.js"),
-						import("./_app/immutable/entry/app.BrmorfX0.js")
+						import("./app/immutable/entry/start.DoYJtw_f.js"),
+						import("./app/immutable/entry/app.BrmorfX0.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
