@@ -1,0 +1,77 @@
+body {
+  margin: auto;
+  background-color: black;
+  --global-font-size: 25px;
+  --font-stack: 'VT323';
+  --primary-color: #00FF00;
+  --font-color: white;
+  border: 5px ridge #00FF00;
+  margin-top: 2rem;
+}
+
+p {
+  color: white;
+  
+}
+
+button {
+  border-radius: 0px;
+}
+
+textarea {
+  background-color: rgba(0,0,0,0.9);;
+  color: white;
+  height: 500px;
+  border-radius: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.logo {
+  font-family: "Sixtyfour";
+  font-size: 33px;
+}
+
+.terminal-menu li a:not(.btn) {
+  font-family: Sixtyfour;
+  font-size: 18px;
+}
+
+#video33 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.pushable {
+  background: #00AA00;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: #00FF00;
+  transform: translateY(-6px);
+  color: black;
+  font-size: 18px;
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
+}
+
+.actions {
+  margin-top: 12px;
+}
